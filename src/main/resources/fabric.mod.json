@@ -3,9 +3,11 @@
   "id": "dh-xaero-bridge",
   "version": "${version}",
   "name": "DH to Xaero Bridge",
-  "description": "Shows Distant Horizons LODs on Xaero's World Map in places where no real chunk data exists. Never overwrites naturally generated map data. Best to wait for all of the Distant Horizon Generation to be finished and go to Xaero's World Map settings and click 'Reload all regions'",
+  "description": "Shows Distant Horizons LODs on Xaero's World Map in places where no real chunk data exists. Never overwrites naturally generated map data.\n\nTip: wait for Distant Horizons generation to finish, then open Xaero's World Map settings and click 'Reload all regions'.\n\n----------------------------\nCredits\n- Distant Horizons (the LOD data this mod reads)\n- Xaero's World Map (the map this mod adds to)\n- VoxyWorldGenXaero-Bridge (the mod this one is based on)\n\nLinks to all three are in the Links section.",
   "authors": ["Stevenh492"],
+  "contributors": ["Distant Horizons team", "Xaero (Xaero's World Map)", "Creator of VoxyWorldGenXaero-Bridge"],
   "license": "MIT",
+  "icon": "assets/dh-xaero-bridge/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": ["dhxaerobridge.DhXaeroBridge"]
@@ -17,5 +19,14 @@
     "java": ">=21",
     "xaeroworldmap": ">=1.40.0",
     "distanthorizons": ">=3.0.0"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Distant Horizons": "https://modrinth.com/mod/distanthorizons",
+        "Xaero's World Map": "https://modrinth.com/mod/xaeros-world-map",
+        "Based on VoxyWorldGenXaero-Bridge": "https://modrinth.com/mod/voxyworldgenxaero-bridge"
+      }
+    }
   }
 }
