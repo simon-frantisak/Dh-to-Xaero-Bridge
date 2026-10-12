@@ -3,8 +3,8 @@
   "id": "dh-xaero-bridge",
   "version": "${version}",
   "name": "DH to Xaero Bridge",
-  "description": "Shows Distant Horizons LODs on Xaero's World Map in places where no real chunk data exists. Never overwrites naturally generated map data.",
-  "authors": ["You"],
+  "description": "Shows Distant Horizons LODs on Xaero's World Map in places where no real chunk data exists. Never overwrites naturally generated map data. Best to wait for all of the Distant Horizon Generation to be finished and go to Xaero's World Map settings and click 'Reload all regions'",
+  "authors": ["Stevenh492"],
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
